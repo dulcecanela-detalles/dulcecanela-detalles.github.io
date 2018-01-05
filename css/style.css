@@ -1,0 +1,98 @@
+
+#bg {
+  background-image: url("..\\icons\\bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about-us {
+  margin-top: 3%;
+}
+
+#contact-img {
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+#footer-nosotros {
+  margin-top: 1%;
+}
+
+#footer-productos {
+  margin-top: 2%;
+}
+
+#product-list {
+  margin-left: 6%;
+  margin-top: 3%;
+}
+
+#products-inner-row {
+  margin-top: 3%;
+}
+
+#products-page-title {
+  margin-left: 5%;
+}
+
+#contact-form {
+  margin-left: 5%;
+}
+
+#Home {
+  margin-left: 50%;
+}
+
+#logo {
+  margin-left: 25%;
+  margin-top: 0%
+}
+
+.product {
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.product:hover {
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ml-25 {
+  margin-left: 25%;
+}
+
+.navbar-nav {
+  margin-left: 4%;
+}
+
+.nav-item {
+  margin-top: 8%;
+}
+
+.fixed-bottom {
+  height: 6%;
+}
+
+.pink-theme {
+  background-color: #ffffff /*Color rosa: #ddcedd;*/
+}
+
+@media (max-width: 720px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  #Home {
+    margin-left: 25%;
+  }
+}

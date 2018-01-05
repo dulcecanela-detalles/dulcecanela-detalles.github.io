@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Dulce Canela Detalles</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="..\css\style.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-md pink-theme justify-content-between">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse dual-nav">
+          <ul class="navbar-nav">
+              <li id="Home" class="nav-item">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">Home</span></a>
+              </li>
+              <li id="Nosotros" class="nav-item ml-25 acti">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li id="logo" class="nav-item">
+                <a class="navbar-brand " href="index.html">
+                  <img src="..\icons\logo.png" width="100" height="100" alt="Logo">
+                </a>
+              </li>
+              <li id="Productos" class="nav-item ml-25 active">
+                  <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li id="Contacto" class="nav-item ml-25">
+                  <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+        </ul>
+      </div>
+      <div class="navbar-collapse collapse dual-nav">
+          <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+              <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-github"></i></a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- Lista de productos -->
+    <h1 id="products-page-title"> Nuestros productos </h1>
+    <div id="product-list">
+      <div class="row">
+        <div class="col">
+          <img src="..\icons\products\alfajores-img.jpg" class="product" data-toggle="modal" data-target="#modal-alfajores" width="200" height="200" alt="Alfajores">
+          <div> Alfajores </div>
+        </div>
+        <div class="col">
+          <img src="..\icons\products\cheesecake-img.jpg" class="product" data-toggle="modal" data-target="#modal-cheessecake" width="200" height="200" alt="Chessecake">
+          <div> Chessecake </div>
+        </div>
+        <div class="col">
+          <img src="..\icons\products\creme-brule-img.jpg" class="product" data-toggle="modal" data-target="#modal-cremeBrule" width="200" height="200" alt="Creme Brule">
+          <div> Creme Brule </div>
+        </div>
+        <div class="col">
+          <img src="..\icons\contact-img.jpg" class="product" data-toggle="modal" data-target="#modal-appleCrumble" width="200" height="200" alt="Apple crumble">
+          <div> Apple crumble </div>
+        </div>
+      </div>
+      <div class="row" id="products-inner-row">
+        <div class="col">
+          <img src="..\icons\us-img.jpg" class="product" data-toggle="modal" data-target="#modal-frutosRojos" width="200" height="200" alt="Torta de frutos rojos">
+          <div> Torta de frutos rojos </div>
+        </div>
+        <div class="col">
+          <img src="..\icons\products\pan-dulce-img.jpg" class="product" data-toggle="modal" data-target="#modal-panDulce" width="200" height="200" alt="Pan dulce">
+          <div> Pan dulce </div>
+        </div>
+        <div class="col">
+          <img src="..\icons\products\torta-de-frutillas-img.jpg" class="product" data-toggle="modal" data-target="#modal-tortaDeFrutillas" width="200" height="200" alt="Torta de frutillas">
+          <div> Torta de frutillas </div>
+        </div>
+        <div class="col">
+          <img src="..\icons\bg-img.jpg" class="product" data-toggle="modal" data-target="#modal-tartaletas" width="200" height="200" alt="Tartaletas">
+          <div> Tartaletas </div>
+        </div>
+      </div>
+    </div>
+    <div class="pink-theme" id="footer-productos">
+      <div class="row justify-content-center">
+        <div class="col-1 mt-1">
+          <a href="https://www.facebook.com/DulceCanela.Detalles/">
+            <img src="..\icons\fb\_f_logo_online\png\FB-f-Logo__blue_29.png" alt="Página de facebook">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para los alfajores-->
+    <div class="modal fade" id="modal-alfajores">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Alfajores </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\icons\products\alfajores-img.jpg" width="465" height="450" alt="Alfajores">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Ricos alfajores de maicena con dulce de leche, rodeados con coco rayado
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para la cheessecake-->
+    <div class="modal fade" id="modal-cheessecake">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Cheesecake </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\icons\products\cheesecake-img.jpg" width="465" height="450" alt="Cheessecake">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Deliciosa cheessecake con frutos rojos bien frescos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para las tartaletas -->
+    <div class="modal fade" id="modal-tartaletas">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Tartaletas </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\icons\bg-img.jpg" width="465" height="450" alt="Tartaletas">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Tartaletas deliciosas de diferentes ingredientes, como chocolate, frutas, dulce de leche y crema, imperdibles
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
