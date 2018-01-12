@@ -21,10 +21,19 @@
 
 #footer-nosotros {
   margin-top: 1%;
+  display: inline-block;
+  width: 100%;
 }
 
 #footer-productos {
   margin-top: 2%;
+  display: inline-block;
+  width: 100%;
+}
+
+#footer-contact {
+  display: inline-block;
+  width: 100%;
 }
 
 #product-list {
@@ -51,6 +60,24 @@
 #logo {
   margin-left: 25%;
   margin-top: 0%
+}
+
+#copyright {
+  float: right;
+  margin-right: 3%;
+  margin-top: 1%;
+}
+
+#follow-us {
+  margin-left: 40%;
+  margin-top: 2%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
 }
 
 .navbar-title {
