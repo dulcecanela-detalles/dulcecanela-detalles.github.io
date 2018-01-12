@@ -53,6 +53,21 @@
   margin-top: 0%
 }
 
+.navbar-title {
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-left: 0.5%;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-icons:hover {
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in-out;
+}
+
 .product {
   cursor: pointer;
   width: 250px;
@@ -86,7 +101,7 @@
 }
 
 .pink-theme {
-  background-color: #ffffff /*Color rosa: #ddcedd;*/
+  background-color: #ededed /*Color rosa: #ddcedd;*/
 }
 
 @media (max-width: 720px) {
