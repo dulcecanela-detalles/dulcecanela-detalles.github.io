@@ -50,39 +50,31 @@
     <h1 id="products-page-title"> Nuestros productos </h1>
     <div id="product-list">
       <div class="row">
-        <div class="col">
+        <div class="col-3">
           <img src="..\icons\products\alfajores-img.jpg" class="product" data-toggle="modal" data-target="#modal-alfajores" width="200" height="200" alt="Alfajores">
           <div> Alfajores </div>
         </div>
-        <div class="col">
+        <div class="col-3">
           <img src="..\icons\products\cheesecake-img.jpg" class="product" data-toggle="modal" data-target="#modal-cheessecake" width="200" height="200" alt="Chessecake">
           <div> Chessecake </div>
         </div>
-        <div class="col">
+        <div class="col-3">
           <img src="..\icons\products\creme-brule-img.jpg" class="product" data-toggle="modal" data-target="#modal-cremeBrule" width="200" height="200" alt="Creme Brule">
           <div> Creme Brule </div>
         </div>
-        <div class="col">
+        <div class="col-3">
           <img src="..\icons\products\apple-crumble.jpg" class="product" data-toggle="modal" data-target="#modal-appleCrumble" width="200" height="200" alt="Apple crumble">
           <div> Apple crumble </div>
         </div>
       </div>
       <div class="row" id="products-inner-row">
-        <div class="col">
-          <img src="..\icons\us-img.jpg" class="product" data-toggle="modal" data-target="#modal-frutosRojos" width="200" height="200" alt="Torta de frutos rojos">
-          <div> Torta de frutos rojos </div>
-        </div>
-        <div class="col">
+        <div class="col-3">
           <img src="..\icons\products\pan-dulce-img.jpg" class="product" data-toggle="modal" data-target="#modal-panDulce" width="200" height="200" alt="Pan dulce">
           <div> Pan dulce </div>
         </div>
-        <div class="col">
-          <img src="..\icons\products\torta-de-frutillas-img.jpg" class="product" data-toggle="modal" data-target="#modal-tortaDeFrutillas" width="200" height="200" alt="Torta de frutillas">
-          <div> Torta de frutillas </div>
-        </div>
-        <div class="col">
-          <img src="..\icons\bg-img.jpg" class="product" data-toggle="modal" data-target="#modal-tartaletas" width="200" height="200" alt="Tartaletas">
-          <div> Tartaletas </div>
+        <div class="col-3">
+          <img src="..\icons\products\pie-de-frutillas-img.jpg" class="product" data-toggle="modal" data-target="#modal-pieDeFrutillas" width="200" height="200" alt="Torta de frutillas">
+          <div> Pie de frutillas </div>
         </div>
       </div>
     </div>
@@ -142,22 +134,88 @@
       </div>
     </div>
 
-    <!-- Modal para las tartaletas -->
-    <div class="modal fade" id="modal-tartaletas">
+    <!-- Modal para la creme brule -->
+    <div class="modal fade" id="modal-cremeBrule">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title"> Tartaletas </h5>
+            <h5 class="modal-title"> Creme brule </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <img src="..\icons\bg-img.jpg" width="465" height="450" alt="Tartaletas">
+            <img src="..\icons\products\creme-brule-img.jpg" width="465" height="450" alt="Tartaletas">
           </div>
           <div class="modal-footer">
             <p class="mr-auto">
-              Tartaletas deliciosas de diferentes ingredientes, como chocolate, frutas, dulce de leche y crema, imperdibles
+              Descripcion
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para apple crumble -->
+    <div class="modal fade" id="modal-appleCrumble">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Apple crumble </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\icons\products\apple-crumble.jpg" width="465" height="450" alt="Tartaletas">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Descripcion
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para pan dulce -->
+    <div class="modal fade" id="modal-panDulce">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Pan dulce </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\icons\products\pan-dulce-img.jpg" width="465" height="450" alt="Tartaletas">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Descripcion
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para pie de frutillas-->
+    <div class="modal fade" id="modal-pieDeFrutillas">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Pie de frutillas </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\icons\products\pie-de-frutillas-img.jpg" width="465" height="450" alt="Tartaletas">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Descripcion
             </p>
           </div>
         </div>
