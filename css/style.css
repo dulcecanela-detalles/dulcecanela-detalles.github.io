@@ -10,10 +10,6 @@
   background-size: cover;
 }
 
-#about-us {
-  margin-top: 3%;
-}
-
 #contact-img {
   margin-left: 5%;
   margin-bottom: 15%;
@@ -29,6 +25,10 @@
   margin-top: 2%;
   display: inline-block;
   width: 100%;
+}
+
+#contact-image-mobile {
+  display: none;
 }
 
 #footer-contact {
@@ -167,8 +167,24 @@
 }
 
 @media (max-width: 768px) {
+
   .navbar-brand {
     display: none;
+  }
+
+  .navbar {
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+
+  #footer-contact {
+    bottom: 0px;
+  }
+
+  #contact-image-mobile {
+    display: block;
+    max-width: 100%;
   }
 
   #product-list-desktop {
@@ -179,6 +195,10 @@
     margin-left: 6%;
     margin-top: 3%;
     display: block;
+  }
+
+  #contact-image {
+    display: none;
   }
 
   .product {
@@ -198,7 +218,7 @@
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
 
   .modal-product {
     height: 320px;
@@ -209,16 +229,26 @@
     height: 310px;
   }
 
+  #footer-contact {
+    position: absolute;
+    bottom: 0px;
+  }
+
   .product {
     width: 150px;
     height: 150px;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
 
   .modal-product {
     height: 220px;
+  }
+
+  #contact-text-box {
+    margin-left: 1%;
+    margin-top: 20%;
   }
 
   .product {
