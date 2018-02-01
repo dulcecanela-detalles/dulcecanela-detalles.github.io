@@ -36,9 +36,13 @@
   width: 100%;
 }
 
-#product-list {
+#product-list-desktop {
   margin-left: 6%;
   margin-top: 3%;
+}
+
+#product-list-mobile {
+  display: none;
 }
 
 #products-inner-row {
@@ -158,9 +162,28 @@
   background-color: #ededed /*Color rosa: #ddcedd;*/
 }
 
+.modal-product {
+  max-width: 100%;
+}
+
 @media (max-width: 768px) {
   .navbar-brand {
     display: none;
+  }
+
+  #product-list-desktop {
+    display: none;
+  }
+
+  #product-list-mobile {
+    margin-left: 6%;
+    margin-top: 3%;
+    display: block;
+  }
+
+  .product {
+    width: 225px;
+    height: 225px;
   }
 
   #copyright {
@@ -177,8 +200,29 @@
 
 @media (max-width: 460px) {
 
+  .modal-product {
+    height: 320px;
+  }
+
   #us-responsive {
     width: 280px;
     height: 310px;
+  }
+
+  .product {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .modal-product {
+    height: 220px;
+  }
+
+  .product {
+    width: 120px;
+    height: 120px;
   }
 }

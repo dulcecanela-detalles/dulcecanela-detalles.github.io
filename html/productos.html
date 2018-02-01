@@ -48,36 +48,71 @@
 
     <!-- Lista de productos -->
     <h1 id="products-page-title"> Nuestros productos </h1>
-    <div id="product-list">
+
+    <!-- Lista de productos en dispositivos desktop -->
+    <div id="product-list-desktop">
       <div class="row">
         <div class="col-3">
-          <img src="..\icons\products\alfajores-img.jpg" class="product" data-toggle="modal" data-target="#modal-alfajores" width="200" height="200" alt="Alfajores">
+          <img src="..\icons\products\alfajores-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-alfajores" width="200" height="200" alt="Alfajores">
           <div> Alfajores </div>
         </div>
         <div class="col-3">
-          <img src="..\icons\products\cheesecake-img.jpg" class="product" data-toggle="modal" data-target="#modal-cheessecake" width="200" height="200" alt="Chessecake">
+          <img src="..\icons\products\cheesecake-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-cheessecake" width="200" height="200" alt="Chessecake">
           <div> Chessecake </div>
         </div>
         <div class="col-3">
-          <img src="..\icons\products\creme-brule-img.jpg" class="product" data-toggle="modal" data-target="#modal-cremeBrule" width="200" height="200" alt="Creme Brule">
+          <img src="..\icons\products\creme-brule-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-cremeBrule" width="200" height="200" alt="Creme Brule">
           <div> Creme Brule </div>
         </div>
         <div class="col-3">
-          <img src="..\icons\products\apple-crumble.jpg" class="product" data-toggle="modal" data-target="#modal-appleCrumble" width="200" height="200" alt="Apple crumble">
+          <img src="..\icons\products\apple-crumble.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-appleCrumble" width="200" height="200" alt="Apple crumble">
           <div> Apple crumble </div>
         </div>
       </div>
       <div class="row" id="products-inner-row">
         <div class="col-3">
-          <img src="..\icons\products\pan-dulce-img.jpg" class="product" data-toggle="modal" data-target="#modal-panDulce" width="200" height="200" alt="Pan dulce">
+          <img src="..\icons\products\pan-dulce-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-panDulce" width="200" height="200" alt="Pan dulce">
           <div> Pan dulce </div>
         </div>
         <div class="col-3">
-          <img src="..\icons\products\pie-de-frutillas-img.jpg" class="product" data-toggle="modal" data-target="#modal-pieDeFrutillas" width="200" height="200" alt="Torta de frutillas">
+          <img src="..\icons\products\pie-de-frutillas-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-pieDeFrutillas" width="200" height="200" alt="Torta de frutillas">
           <div> Pie de frutillas </div>
         </div>
       </div>
     </div>
+
+      <!-- Lista de productos en dispositivos mobile -->
+      <div id="product-list-mobile">
+        <div class="row">
+          <div class="col-6">
+            <img src="..\icons\products\alfajores-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-alfajores" width="200" height="200" alt="Alfajores">
+            <div> Alfajores </div>
+          </div>
+          <div class="col-6">
+            <img src="..\icons\products\cheesecake-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-cheessecake" width="200" height="200" alt="Chessecake">
+            <div> Chessecake </div>
+          </div>
+          <div class="col-6">
+            <img src="..\icons\products\creme-brule-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-cremeBrule" width="200" height="200" alt="Creme Brule">
+            <div> Creme Brule </div>
+          </div>
+          <div class="col-6">
+            <img src="..\icons\products\apple-crumble.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-appleCrumble" width="200" height="200" alt="Apple crumble">
+            <div> Apple crumble </div>
+          </div>
+        </div>
+        <div class="row" id="products-inner-row">
+          <div class="col-6">
+            <img src="..\icons\products\pan-dulce-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-panDulce" width="200" height="200" alt="Pan dulce">
+            <div> Pan dulce </div>
+          </div>
+          <div class="col-6">
+            <img src="..\icons\products\pie-de-frutillas-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-pieDeFrutillas" width="200" height="200" alt="Torta de frutillas">
+            <div> Pie de frutillas </div>
+          </div>
+        </div>
+      </div>
+
     <div class="pink-theme" id="footer-productos">
       <div id="follow-us">
         <a href="https://www.facebook.com/DulceCanela.Detalles/">
@@ -101,7 +136,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <img src="..\icons\products\alfajores-img.jpg" width="465" height="450" alt="Alfajores">
+            <img src="..\icons\products\alfajores-img.jpg" class="modal-product" width="465" height="450" alt="Alfajores">
           </div>
           <div class="modal-footer">
             <p class="mr-auto">
@@ -123,7 +158,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <img src="..\icons\products\cheesecake-img.jpg" width="465" height="450" alt="Cheessecake">
+            <img src="..\icons\products\cheesecake-img.jpg" class="modal-product" width="465" height="450" alt="Cheessecake">
           </div>
           <div class="modal-footer">
             <p class="mr-auto">
@@ -145,7 +180,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <img src="..\icons\products\creme-brule-img.jpg" width="465" height="450" alt="Creme brule">
+            <img src="..\icons\products\creme-brule-img.jpg" class="modal-product" width="465" height="450" alt="Creme brule">
           </div>
           <div class="modal-footer">
             <p class="mr-auto">
@@ -167,7 +202,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <img src="..\icons\products\apple-crumble.jpg" width="465" height="450" alt="Apple crumble">
+            <img src="..\icons\products\apple-crumble.jpg" class="modal-product" width="465" height="450" alt="Apple crumble">
           </div>
           <div class="modal-footer">
             <p class="mr-auto">
@@ -189,7 +224,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <img src="..\icons\products\pan-dulce-img.jpg" width="465" height="450" alt="Pan dulce">
+            <img src="..\icons\products\pan-dulce-img.jpg" class="modal-product" width="465" height="450" alt="Pan dulce">
           </div>
           <div class="modal-footer">
             <p class="mr-auto">
@@ -211,7 +246,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <img src="..\icons\products\pie-de-frutillas-img.jpg" width="465" height="450" alt="Pie de frutillas">
+            <img src="..\icons\products\pie-de-frutillas-img.jpg" class="modal-product" width="465" height="450" alt="Pie de frutillas">
           </div>
           <div class="modal-footer">
             <p class="mr-auto">
