@@ -24,8 +24,6 @@
   margin-top: 1%;
   display: inline-block;
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
 #footer-productos {
@@ -284,6 +282,11 @@
     width: 350px;
     height: 350px;
     transition: opacity 0.3s ease-in-out;
+  }
+
+  #footer-nosotros {
+      position: absolute;
+      bottom: 0;
   }
 
   #contact-text {
