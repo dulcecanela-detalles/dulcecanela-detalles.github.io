@@ -183,6 +183,11 @@
         z-index: 999;
     }
 
+    #bg {
+      width: 100px;
+      height: 500px;
+    }
+
     #contact-text {
       font-size: 12px;
     }
