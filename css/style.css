@@ -1,6 +1,6 @@
 
 #bg {
-  background-image: url("..\\icons\\bg-img.jpg");
+  background-image: url("..\\images\\bg-img.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -20,15 +20,12 @@
   width: 100%;
 }
 
-#contact-img {
-  margin-left: 5%;
-  margin-bottom: 15%;
-}
-
 #footer-nosotros {
   margin-top: 1%;
   display: inline-block;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 #footer-productos {
@@ -273,5 +270,27 @@
   .product {
     width: 120px;
     height: 120px;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  .navbar-nav {
+    margin-left: 26%;
+  }
+
+  .product {
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  #contact-text {
+    margin-left: 12%;
+  }
+
+  #follow-us-contact {
+    margin-left: 24%;
   }
 }
