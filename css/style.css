@@ -243,11 +243,11 @@
 @media (max-width: 400px) {
 
   .modal-product {
-    height: 220px;
+    height: 280px;
   }
 
   #contact-text-box {
-    margin-left: 1%;
+    margin-left: 15%;
     margin-top: 20%;
   }
 
