@@ -177,8 +177,10 @@
 }
 
 .about {
-  font-family: 'Indie Flower', cursive;
-  margin-bottom: 10%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 21px;
+  margin-bottom: 6%;
+  font-weight: 600;
 }
 
 .nav-item {
@@ -315,6 +317,13 @@ html{
     width: 350px;
     height: 350px;
     transition: opacity 0.3s ease-in-out;
+  }
+
+  .about {
+    margin-bottom: 0%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 21px;
+    font-weight: 600;
   }
 
   #footer-nosotros {
