@@ -56,6 +56,8 @@
 
 #products-page-title {
   margin-left: 5%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
 }
 
 #contact-form {
@@ -88,8 +90,10 @@
 }
 
 #contact-text-box {
-  margin-left: 27%;
+  margin-left: 28%;
   margin-top: 1%;
+  font-family: 'Amatic SC';
+  font-size: 25px;
 }
 
 #follow-us-contact {
@@ -107,6 +111,21 @@
 
 #contact-text {
   margin-left: 7%;
+}
+
+.modal-title {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+}
+
+.modal-footer {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.products-page {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
 }
 
 .footer {
@@ -152,7 +171,14 @@
 }
 
 .navbar-nav {
-  margin-left: 4%;
+  margin-left: 2%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+}
+
+.about {
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 10%;
 }
 
 .nav-item {
@@ -194,6 +220,7 @@ html{
 
     #follow-us-contact {
       font-size: 12px;
+      margin-left: 35%;
     }
 
   #footer-contact {
@@ -208,6 +235,7 @@ html{
 
   #product-list-desktop {
     display: none;
+    font-size: 50px;
   }
 
   #product-list-mobile {
@@ -299,6 +327,6 @@ html{
   }
 
   #follow-us-contact {
-    margin-left: 24%;
+    margin-left: 35%;
   }
 }

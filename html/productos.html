@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="..\css\style.css">
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Amatic+SC" rel="stylesheet">
   <body>
 
     <!-- Navbar -->
@@ -51,7 +51,7 @@
     <h1 id="products-page-title"> Nuestros productos</h1>
 
     <!-- Lista de productos en dispositivos desktop -->
-    <div id="product-list-desktop">
+    <div id="product-list-desktop" class="products-page">
       <div class="row">
         <div class="col-3">
           <img src="..\images\products\alfajores-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-alfajores" width="200" height="200" alt="Alfajores">
@@ -83,11 +83,39 @@
           <img src="..\images\products\havanette.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-havanette" width="200" height="200" alt="Havanette">
           <div> Havanette </div>
         </div>
+        <div class="col-3">
+          <img src="..\images\products\brownie.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-brownie" width="200" height="200" alt="Brownie">
+          <div> Brownie </div>
+        </div>
+      </div>
+      <div class="row" id="products-inner-row">
+        <div class="col-3">
+          <img src="..\images\products\brownie-bomba.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-brownie-bomba" width="200" height="200" alt="Brownie bomba">
+          <div> Brownie bomba </div>
+        </div>
+        <div class="col-3">
+          <img src="..\images\products\cheesecake-oreo.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-cheesecake-oreo" width="200" height="200" alt="Cheesecake oreo">
+          <div> Cheesecake de Oreo </div>
+        </div>
+        <div class="col-3">
+          <img src="..\images\products\mousse-frutos-rojos.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-mousse-chocolate" width="200" height="200" alt="Mousse de chocolate">
+          <div> Torta mousse de chocolate </div>
+        </div>
+        <div class="col-3">
+          <img src="..\images\products\mini-tartaletas.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-mini-tartaletas" width="200" height="200" alt="Mini tartaletas">
+          <div> Mini tartaletas </div>
+        </div>
+      </div>
+      <div class="row" id="products-inner-row">
+        <div class="col-3">
+          <img src="..\images\products\shots.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-shots" width="200" height="200" alt="Postres en vaso">
+          <div> Postres en vaso </div>
+        </div>
       </div>
     </div>
 
       <!-- Lista de productos en dispositivos mobile -->
-      <div id="product-list-mobile">
+      <div id="product-list-mobile" class="products-page">
         <div class="row">
           <div class="col-6">
             <img src="..\images\products\alfajores-img.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-alfajores" width="200" height="200" alt="Alfajores">
@@ -118,6 +146,34 @@
           <div class="col-6">
             <img src="..\images\products\havanette.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-havanette" width="200" height="200" alt="Havanette">
             <div> Havanette </div>
+          </div>
+          <div class="col-6">
+            <img src="..\images\products\brownie.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-brownie" width="200" height="200" alt="Brownie">
+            <div> Brownie </div>
+          </div>
+        </div>
+        <div class="row" id="products-inner-row">
+          <div class="col-6">
+            <img src="..\images\products\brownie-bomba.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-brownie-bomba" width="200" height="200" alt="Brownie bomba">
+            <div> Brownie bomba </div>
+          </div>
+          <div class="col-6">
+            <img src="..\images\products\cheesecake-oreo.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-cheesecake-oreo" width="200" height="200" alt="Cheesecake oreo">
+            <div> Cheesecake de Oreo </div>
+          </div>
+          <div class="col-6">
+            <img src="..\images\products\mousse-frutos-rojos.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-mousse-chocolate" width="200" height="200" alt="Mousse de chocolate">
+            <div> Torta mousse de chocolate </div>
+          </div>
+          <div class="col-6">
+            <img src="..\images\products\mini-tartaletas.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-mini-tartaletas" width="200" height="200" alt="Mini tartaletas">
+            <div> Mini tartaletas </div>
+          </div>
+        </div>
+        <div class="row" id="products-inner-row">
+          <div class="col-6">
+            <img src="..\images\products\shots.jpg" id="product-image" class="product" data-toggle="modal" data-target="#modal-shots" width="200" height="200" alt="Postres en vaso">
+            <div> Postres en vaso </div>
           </div>
         </div>
       </div>
@@ -287,6 +343,139 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal para el Brownie -->
+    <div class="modal fade" id="modal-brownie">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Brownie </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\images\products\brownie.jpg" class="modal-product" width="465" height="450" alt="Brownie">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Clásico brownie de chocolate amargo o semi amargo
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para el Brownie bomba -->
+    <div class="modal fade" id="modal-brownie-bomba">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Brownie bomba </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\images\products\brownie-bomba.jpg" class="modal-product" width="465" height="450" alt="Bownie bomba">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Brownie con dulce de leche, crema chantilly y merengue italiano
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para la Cheesecake de Oreo -->
+    <div class="modal fade" id="modal-cheesecake-oreo">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Cheesecake Oreo </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\images\products\cheesecake-oreo.jpg" class="modal-product" width="465" height="450" alt="Cheesecake de Oreo">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+              Cheesecake clásica con base de galletitas Oreo
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para el Mousse de chocolate con frutos rojos -->
+    <div class="modal fade" id="modal-mousse-chocolate">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Torta mousse de chocolate </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\images\products\mousse-frutos-rojos.jpg" class="modal-product" width="465" height="450" alt="Torta Mousse de chocolate">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+             Torta mousse de chocolate con frutos del bosque
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para las Mini tartaletas -->
+    <div class="modal fade" id="modal-mini-tartaletas">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Mini tartaletas </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\images\products\mini-tartaletas.jpg" class="modal-product" width="465" height="450" alt="Mini tartaletas">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+             Frutales, chocolate, lemon pie...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para los postres en vaso -->
+    <div class="modal fade" id="modal-shots">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Postres en vaso </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="..\images\products\shots.jpg" class="modal-product" width="465" height="450" alt="Postres en vaso">
+          </div>
+          <div class="modal-footer">
+            <p class="mr-auto">
+             Variedad de postres en shots
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
